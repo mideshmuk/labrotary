@@ -1,0 +1,38 @@
+gov=["House Rental","Commercial Office Agreement","Commercial Shop Rental","Room Agreement","Office Sharing Agreement","Car Parking","Settlement Of Rental Agreement","Commercial Lease","Quick Rental","Residential Lease","Renting in a Mall","Paying Guest Agreement","Leave And Licence","NOC From Landlord","Leave And License Agreement In Mumbai","Non-Disclosure /Confidentiality Agreement","Job Offer And Employment Contract","Consultancy Agreement","Commercial Rental Agreement","Office Sharing Agreement"]
+    data = []
+    for i in gov:
+        temp = {
+            "service_name":i,
+            "price":'0.0',
+            "description":"",
+            "service_type":str(4)
+        }
+        data.append(temp)
+    for i in data:
+        genericDb.create(mysql,"services",i)
+    print(genericDb.get(mysql,"services",["*"],condition=None))
+    
+
+def SelectORInsert(mysql,data,table):
+    form_info = get(mysql,table,['count(*)'],"where service_name='"+str(data.get('name'))+"'","one")
+    if(form_info.get('count(*)')==0):
+        types = 4
+        if (data.get('type').find("affidavit")):
+            types= 1
+        elif (data.get('type').find("government")):
+            types = 2
+        elif (data.get('type').find("Trademark Registration") or data.get('type').find('Intellectual Property') or data.get('type').find("Income Tax") or data.get('type').find("Goods & Service Tax") or data.get('type').find("legal") or data.get('type').find("Accounting & Compliances") or data.get('type').find("Agreement") or data.get("legal-startup")):
+            types = 3
+        else:
+            types = 4
+        #make query
+        ins_data = {
+            "service_name":data.get('name'),
+            "description":"",
+            "service_type":str(types),
+            "price":"0.0",
+            "comm_type":"2"
+        }
+        status,id = create(mysql,"services",ins_data)
+        if status:
+            print(id)

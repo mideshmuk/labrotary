@@ -1,0 +1,218 @@
+[
+    {
+        "name": "Business Setup",
+        "subservices": [
+            {
+                "type": "business setup",
+                "name": "Private Limited Company (Pvt Ltd)",
+            },
+            {
+                "type": "business setup",
+                "name": "Limited Liability Partnership (LLP)"
+            },
+            {
+                "type": "business setup",
+                "name": "One Person Company (OPC)"
+            },
+            {
+                "type": "business setup",
+                "name": "Nidhi Company"
+            },
+            {
+                "type": "business setup",
+                "name": "Producer Company"
+            },
+            {
+                "type": "business setup",
+                "name": "Sole Proprietorship"
+            },
+            {
+                "type": "business setup",
+                "name": "Partnership Firm"
+            },
+            {
+                "type": "name search",
+                "name": "Company Name Search"
+            },
+            {
+                "type": "name search",
+                "name": "Brand Name Search"
+            }
+        ]
+    }, {
+        "name": "licence and registration",
+        "subservices": [
+            { "type": "licence and registration", "name": "Digital Signature Certificate" },
+            { "type": "licence and registration", "name": "MSME/SSI Registration" },
+            { "type": "licence and registration", "name": "ISO Certification" },
+            { "type": "licence and registration", "name": "FSSAI [Food License]" },
+            { "type": "licence and registration", "name": "IEC [Import/Export Code]" },
+            { "type": "licence and registration", "name": "Psara License" },
+            { "type": "licence and registration", "name": "Trade License" },
+            { "type": "licence and registration", "name": "Startup India Registration" },
+            { "type": "licence and registration", "name": "Shops and Establishments License" },
+            { "type": "licence and registration", "name": "AEPC" },
+            { "type": "licence and registration", "name": "Legal Metrology" },
+            { "type": "licence and registration", "name": "APEDA registration" },
+            { "type": "licence and registration", "name": "RCMC" },
+            { "type": "licence and registration", "name": "FIEO" },
+            { "type": "licence and registration", "name": "Spice Board Registration" }
+        ]
+    }, {
+        "name": "manage your business fillings",
+        "subservices": [
+            {
+                "type": "mandatory annual filings",
+                "name": "Private Limited Company / OPC"
+            }, {
+                "type": "mandatory annual filings",
+                "name": "Limited Liability Partnership"
+            },
+            {
+                "type": "mandatory annual filings",
+                "name": "CFSS"
+            },
+            { "type": "gst", "name": "GST Registration" },
+            { "type": "gst", "name": "GST Filing" },
+            { "type": "gst", "name": "GST Advisory" },
+            { "type": "gst", "name": "GST HSN Finder" },
+            { "type": "changes in pvt ltd company", "name": "Add a Director" },
+            { "type": "changes in pvt ltd company", "name": "Remove a Director" },
+            { "type": "changes in pvt ltd company", "name": "Increase Authorized Capital" },
+            { "type": "changes in pvt ltd company", "name": "Close a Pvt Ltd Company" },
+            { "type": "changes in pvt ltd company", "name": "Change Objective/Activity" },
+            { "type": "changes in pvt ltd company", "name": "Change Address" },
+            { "type": "changes in pvt ltd company", "name": "Change Company Name" },
+            { "type": "changes in lpp", "name": "Add Designated Partner" },
+            { "type": "changes in lpp", "name": "Changes to LLP Agreement" },
+            { "type": "changes in lpp", "name": "Close the LLP" },
+            { "type": "convert your bussiness", "name": "Proprietorship to Pvt Ltd Company" },
+            { "type": "convert your bussiness", "name": "Compliance Check - Secretarial Audit" },
+            { "type": "convert your bussiness", "name": "Due Digilence" },
+            { "type": "convert your bussiness", "name": "RBI Compliance" },
+            { "type": "convert your bussiness", "name": "Partnership to LLP" },
+            { "type": "convert your bussiness", "name": "Private to Public Limited Company" },
+            { "type": "convert your bussiness", "name": "Private to One Person Company" },
+            { "type": "accounting and tax", "name": "Accounting and Book-keeping" },
+            { "type": "accounting and tax", "name": "Company & LLP Income Tax Return Filing" },
+            { "type": "accounting and tax", "name": "Payroll Maintenance" },
+            { "type": "accounting and tax", "name": "TDS Return Filing" },
+            { "type": "accounting and tax", "name": "Income Tax Return Filing Online" },
+            { "type": "accounting and tax", "name": "Proprietorship ITR Filing" },
+            { "type": "accounting and tax", "name": "Professional Tax Registration" },
+            { "type": "accounting and tax", "name": "USA Tax Law" },
+            { "type": "accounting and tax", "name": "Accounting & Business Complaince" },
+            { "type": "accounting and tax", "name": "Corporate Tax" },
+            { "type": "accounting and tax", "name": "NRI Legal Service" },
+            { "type": "labour complaince", "name": "Labor Law" },
+            { "type": "labour complaince", "name": "Provident Fund (PF) Registration" },
+            { "type": "labour complaince", "name": "ESI Registration" },
+            { "type": "labour complaince", "name": "Employee Stock Option Plan [ESOP]" }
+        ]
+    }, {
+        "name": "brand identity protection",
+        "subservices": [
+            { "type": "trademark", "name": "Trademark Registration" },
+            { "type": "trademark", "name": "Design Registration" },
+            { "type": "trademark", "name": "Search for Trademark Class" },
+            { "type": "trademark", "name": "Respond to TM Objection" },
+            { "type": "trademark", "name": "Trademark Watch" },
+            { "type": "trademark", "name": "Trademark Renewal" },
+            { "type": "trademark", "name": "Trademark Assignment" },
+            { "type": "trademark", "name": "International Trademark Regoistration" },
+            { "type": "trademark", "name": "USA Trademark" },
+            { "type": "logo registration", "name": "Logo Design" },
+            { "type": "copyright", "name": "Copyright Registration" },
+            { "type": "copyright", "name": "Copyright For Music" },
+            { "type": "patent", "name": "Patent Search" },
+            { "type": "patent", "name": "Provisonal Application" },
+            { "type": "patent", "name": "Permanent Patent" }
+        ]
+    }, {
+        "name": "document and agreement",
+        "subservices": [
+            { "type": "affidavit", "name": "Change Of Name Affidavit" },
+            { "type": "affidavit", "name": "Change Of Name After Marriage Affidavit" },
+            { "type": "affidavit", "name": "Change Of Signature Affidavit" },
+            { "type": "affidavit", "name": "Address Proof Affidavit" },
+            { "type": "affidavit", "name": "Proof Of Date Of birth Affidavit" },
+            { "type": "affidavit", "name": "One And The Same Person Affidavit" },
+            { "type": "affidavit", "name": "Affidavit For Change Of Name Of Minor" },
+            { "type": "affidavit", "name": "Affidavit For Proof Of Income" },
+            { "type": "affidavit", "name": "Affidavit For Claim Settlement In Bank" },
+            { "type": "affidavit", "name": "Marriage Affidavits" },
+            { "type": "affidavit", "name": "Affidavit For Duplicate Licence" },
+            { "type": "affidavit", "name": "Affidavit For Declaration of No-criminal" },
+            { "type": "affidavit", "name": "Domicile Affidavit" },
+            { "type": "affidavit", "name": "Affidavit For Education Loan" },
+            { "type": "affidavit", "name": "Affidavit For Duplicate Marklist" },
+            { "type": "affidavit", "name": "LPG Affidavit Annexure A" },
+            { "type": "affidavit", "name": "Hp Gas Affidavit" },
+            { "type": "affidavit", "name": "Indane Gas Affidavit" },
+            { "type": "affidavit", "name": "Bharat Gas Affidavit" },
+            { "type": "agreement", "name": "Flat Rental Agreement" },
+            { "type": "agreement", "name": "House Rental" },
+            { "type": "agreement", "name": "Commercial Office Agreement" },
+            { "type": "agreement", "name": "Commercial Shop Rental" },
+            { "type": "agreement", "name": "Room Agreement" },
+            { "type": "agreement", "name": "Office Sharing Agreement" },
+            { "type": "agreement", "name": "Car Parking" },
+            { "type": "agreement", "name": "Settlement Of Rental Agreement" },
+            { "type": "agreement", "name": "Commercial Lease" },
+            { "type": "agreement", "name": "Quick Rental" },
+            { "type": "agreement", "name": "Residential Lease" },
+            { "type": "agreement", "name": "Renting in a Mall" },
+            { "type": "agreement", "name": "Paying Guest Agreement" },
+            { "type": "agreement", "name": "Leave And Licence" },
+            { "type": "agreement", "name": "NOC From Landlord" }
+        ]
+    }, {
+        "name": "travel and insurance",
+        "subservices": [
+            { "type": "utility bill payment", "name": "Mobile Recharge" },
+            { "type": "utility bill payment", "name": "DTH Recharge" },
+            { "type": "utility bill payment", "name": "Electricity Bill" },
+            { "type": "utility bill payment", "name": "Landline" },
+            { "type": "utility bill payment", "name": "Broadband" },
+            { "type": "utility bill payment", "name": "Loan Repayment" },
+            { "type": "utility bill payment", "name": "Insurance Premium " },
+            { "type": "utility bill payment", "name": "Munciple Payment" },
+            { "type": "utility bill payment", "name": "Water Bill" },
+            { "type": "utility bill payment", "name": "Piped Gas Bill" },
+            { "type": "utility bill payment", "name": "Challan" },
+            { "type": "utility bill payment", "name": "FasTag Recharge" },
+            { "type": "utility bill payment", "name": "Education Fees" },
+            { "type": "travels", "name": "Bus  Booking" },
+            { "type": "travels", "name": "Hotel Booking" },
+            { "type": "travels", "name": "Flight Booking" },
+            { "type": "travels", "name": "Train Ticket Booling" },
+            { "type": "insurance", "name": "Two Wheeler Insurance" },
+            { "type": "insurance", "name": "Four Wheeler Insurance" },
+            { "type": "insurance", "name": "Health Insurance" },
+            { "type": "insurance", "name": "Personal Accident Insurance" }
+
+        ]
+    }, {
+        "name": "banking and loan",
+        "subservices": [
+            { "type": "banking", "name": "Cash Withdraw" },
+            { "type": "banking", "name": "Cash Deposit" },
+            { "type": "banking", "name": "Balance Inquiry" },
+            { "type": "banking", "name": "Mini Statement" },
+            { "type": "banking", "name": "Money Transfer" },
+            { "type": "credit card", "name": "HDFC Bank" },
+            { "type": "credit card", "name": "ICICI Bank" },
+            { "type": "credit card", "name": "Axis Bank" },
+            { "type": "credit card", "name": "SBI Bank" },
+            { "type": "credit card", "name": "IndusInd Bank" },
+            { "type": "credit card", "name": "Bajaj RBL" },
+            { "type": "credit card", "name": "Yes Bank" },
+            { "type": "loan", "name": "Personal Loan" },
+            { "type": "loan", "name": "Business Loan" },
+            { "type": "loan", "name": "Home Loan" },
+            { "type": "loan", "name": "Loan Against Property" },
+            { "type": "loan", "name": "MSME Loan" }
+
+        ]
+    }
+]
